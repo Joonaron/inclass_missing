@@ -28,5 +28,7 @@ class TemperatureConverterTest {
         assertTrue(converter.isExtremeTemperature(51));
         assertFalse(converter.isExtremeTemperature(0));
         assertFalse(converter.isExtremeTemperature(25));
+        System.out.println("Joonas Ronimus");
     }
+
 }
